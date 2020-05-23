@@ -1,0 +1,11 @@
+.jumbotron{
+  background-color:  #b2ebf2;
+}
+
+.container-fluid {
+  max-width: 80%;
+}
+
+.btn-sm {
+  margin-left: 10%;
+}

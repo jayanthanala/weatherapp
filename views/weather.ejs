@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <center>
+    <div class="jumbotron jumbotron-fluid">
+      <img src="<%=urlimg%>" alt="">
+
+      <h3 class="display-4">The temperature in <%=cityn%> is <%=temper%> Degree Celcius</h3>
+      <br>
+      <p class="lead">The weather is currently <%=description%>.</p>
+      <hr class="my-4">
+
+
+      <div class="container-fluid">
+        <form action="/return" method="post">
+          <button class="btn btn-warning" type="submit" name="button">Search Another One</button>
+        </form>
+      </div>
+
+    </div>
+
+    &copy 2020 Jayanth Anala
+  </center>
+
+</body>
+
+</html>
